@@ -7,11 +7,12 @@ This repository contains my implementation of the Market Basket Analysis assignm
 ```
 .
 ├── main.ipynb                 # Notebook with all steps (Parts A–E)
-├── groceries.csv              # Raw dataset (input)
-├── transactions_clean.csv     # Cleaned transactions (output, Part B)
-├── product_prices.csv         # Random prices per item (output, Part C)
-├── transactions_priced.csv    # Cleaned transactions + Basket_Total (output, Part C)
-└── README.md                  # This file
+├── csv_files/                 # Folder containing all CSV datasets
+│   ├── groceries.csv          # Raw dataset (input)
+│   ├── transactions_clean.csv # Cleaned transactions (output, Part B)
+│   ├── product_prices.csv     # Random prices per item (output, Part C)
+│   └── transactions_priced.csv# Cleaned transactions + Basket_Total (output, Part C)
+└── README.md                  # Project description and instructions
 ```
 
 ### Dependencies
